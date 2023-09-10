@@ -1,0 +1,12 @@
+Date: 10/09/2023
+
+
+
+
+Tasks Performed:
+Learned about creating a git repo and the add a new file and make some changes and upload to the profile.
+
+Command:
+git add .
+git commit -m "your message"
+git push
