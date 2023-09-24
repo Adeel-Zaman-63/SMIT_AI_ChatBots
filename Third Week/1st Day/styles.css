@@ -1,0 +1,72 @@
+h1,h2 {
+    color: white;
+}
+
+img {
+    border:  1px solid white;
+    border-radius: 50%;
+}
+
+body {
+    background-color: #16181c;
+    color: white;
+}
+
+.dim {
+    color: #90969b;
+    border: 1px solid white;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 1rem;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+/* Apply the background color to the entire table */
+.tablestyle {
+    background-color: #16181c;
+    border-collapse: collapse; /* This removes spacing between table cells */
+}
+
+/* Style the table headers (th) */
+.tablestyle th {
+    background-color: #34383d; /* Header background color */
+    color: #ffffff; /* Header text color */
+    padding: 10px; /* Header cell padding */
+}
+
+/* Style the table rows (tr) */
+.tablestyle tr {
+    background-color: #232527; /* Row background color */
+    color: #ffffff; /* Row text color */
+}
+
+/* Style the table cells (td) */
+.tablestyle td {
+    padding: 10px; /* Cell padding */
+    border: 1px solid #34383d; /* Cell border */
+}
+
+
+/* Style the list container */
+.bio {
+    list-style-type: none; /* Remove default list bullets */
+    padding: 0;
+}
+
+/* Style individual list items */
+.bio li {
+    padding: 10px;
+    border: 1px solid #34383d; /* Darker border color to match the background */
+    margin: 5px 0;
+    background-color: #16181c; /* Set background color to match your background */
+    color: #ffffff; /* Text color */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+/* Add hover effect to list items */
+.bio li:hover {
+    background-color: #34383d; /* Highlight color on hover */
+}

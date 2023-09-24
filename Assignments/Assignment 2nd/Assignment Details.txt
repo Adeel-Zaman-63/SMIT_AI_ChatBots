@@ -1,1 +1,1 @@
-Make yourself cv in html and css and host on a server
+Make yourself cv in html and host on a server
